@@ -1,0 +1,34 @@
+
+
+body {
+    font-family: monospace;
+    background-color: lightcoral;
+}
+
+.flexParent {
+    display: grid;
+}
+
+.flexParent div {
+    background-color:lightyellow;
+    margin: 8px;
+    padding: 8px;
+    border: 2px solid;
+}
+
+.flexParent > div {
+    background-color: white;
+}
+
+.flexParent > div:hover {
+    background-color: yellow;
+}
+
+.flexParent div p:first-child {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+p + p {
+    margin:  64px;
+}
